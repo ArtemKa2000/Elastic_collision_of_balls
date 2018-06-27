@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dataroot>
+<Elements>
+<Код>1</Код>
+<Width>250</Width>
+<Height>250</Height>
+<FPS>25</FPS>
+<SpeedAnimation>1</SpeedAnimation>
+<Fields>50</Fields>
+<GroundY>125</GroundY>
+<G>-9.80665</G>
+<Radius1>100</Radius1>
+<Massa1>5</Massa1>
+<Color1>000;255;000;000</Color1>
+<CoordX1>25</CoordX1>
+<CoordY1>25</CoordY1>
+<Speed1>25</Speed1>
+<Radius2>10</Radius2>
+<Massa2>1</Massa2>
+<Color2>000;000;000;000</Color2>
+<CoordX2>135</CoordX2>
+<CoordY2>115</CoordY2>
+<Speed2>0</Speed2>
+</Elements>
+</dataroot>

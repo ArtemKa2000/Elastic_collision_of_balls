@@ -1,0 +1,72 @@
+﻿<Window x:Class="Modeling.WMenuModeling"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Modeling"
+        mc:Ignorable="d"
+        Title="Меню моделювання" Style="{StaticResource WindowStyle}" MinWidth="1168" MinHeight="657" Closing="Window_Closing"  WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.Resources>
+            <ResourceDictionary>
+                <Style x:Key="SettingsImageStyle" TargetType="Image">
+                    <Setter Property="Height" Value="40"></Setter>
+                    <Setter Property="Margin" Value="5,5,20,10"></Setter>
+                    <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+                    <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+                    <Setter Property="ToolTip" Value="Відкрити вікно налаштувань"></Setter>
+                    <Setter Property="Grid.Row" Value="2"></Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Opacity" Value="0"></Setter>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" MaxHeight="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid MaxHeight="105">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="1.1*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="1.3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Style="{StaticResource ImageBackStyle}" Source="Sources/Images/BackEnter.png"></Image>
+            <Image Name="im_Back" Style="{StaticResource ImageBackStyle}" Source="Sources/Images/BackLeave.png" MouseDown="im_Back_MouseDown"></Image>
+            <Button Name="btn_CreateElement" ToolTip="Створити новий елемент" Grid.Column="1" FontSize="35" Margin="15" Click="btn_CreateElement_Click">
+                <TextBlock TextWrapping="Wrap">Створити</TextBlock>
+            </Button>
+            <Button Name="btn_Edit" ToolTip="Редагувати останній обраний елемент" Grid.Column="2" IsEnabled="False" FontSize="35" Margin="15" Click="bnt_Edit_Click">
+                <TextBlock TextWrapping="Wrap">Редагувати</TextBlock>
+            </Button>
+            <Button Name="btn_Dell" ToolTip="Видалити останній обраний елемент" Grid.Column="3" IsEnabled="False" FontSize="35" Margin="15" Click="btn_Dell_Click">
+                <TextBlock TextWrapping="Wrap">Видалити</TextBlock>
+            </Button>
+            <Button Name="btn_Save" ToolTip="Зберігти зміни елементів та налаштувань" Grid.Column="4" FontSize="35" Margin="15" Click="btn_Save_Click">
+                <TextBlock TextWrapping="Wrap">Зберегти</TextBlock>
+            </Button>
+            <Button Name="btn_Modeling" ToolTip="Перейти до моделювання" Grid.Column="5" IsEnabled="False" FontSize="35" Margin="15" Click="btn_Modeling_Click">
+                <TextBlock TextWrapping="Wrap">Моделювати</TextBlock>
+            </Button>
+        </Grid >
+        <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Template="{DynamicResource MyScrollView}" >
+        <Grid  Name="grid_Content" Margin="5" SizeChanged="grid_Content_SizeChanged">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </ScrollViewer>
+        <Label Grid.Row="2" Style="{StaticResource PromptsLabelStyle}"></Label>
+        <Image Style="{StaticResource SettingsImageStyle}" Source="Sources/Images/SettingsEnter.png"></Image>
+        <Image Name="im_Settings" Style="{StaticResource SettingsImageStyle}" Source="Sources/Images/SettingsLeave.png" MouseDown="im_Settings_MouseDown"></Image>
+    </Grid>
+</Window>

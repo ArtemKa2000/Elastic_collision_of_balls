@@ -1,0 +1,17 @@
+﻿<Window x:Class="Modeling.wExplanation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Modeling"
+        mc:Ignorable="d"
+        Title="Налаштування" Height="423" Width="752" Icon="Sources/Images/MAN.ico" Closing="Window_Closing" WindowStartupLocation="CenterScreen" WindowStyle="None" KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <WebBrowser Name="webBrowser" ></WebBrowser>
+        <Label Grid.Row="1" FontSize="18" FontFamily="Arial" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left">Натисність Esc для виходу</Label>
+    </Grid>
+</Window>

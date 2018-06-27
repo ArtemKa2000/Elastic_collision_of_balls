@@ -1,0 +1,322 @@
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\MainWindow.g.cs
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\App.g.cs
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\MainWindow.baml
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\артем\Програмирование\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\MainWindow.g.cs
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\App.g.cs
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\MainWindow.baml
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\Artem\Programming\Visual Studio workspase\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\Artem\Квалификационная\Modeling_Double\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\Artem\Квалификационная\Modeling_Double\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\Artem\Квалификационная\Modeling_Double\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Artem\Квалификационная\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\App.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\Artem\Квалификационная\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\Artem\Квалификационная\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\Modeling.csproj.CoreCompileInputs.cache
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WApplicationMap.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\wLoadingBaner.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WModeling.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WMenuMain.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\wExplanation.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\wSettings.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WTheory.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WApplicationMap.baml
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\wLoadingBaner.baml
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WModeling.baml
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WMenuMain.baml
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\wExplanation.baml
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\wSettings.baml
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WTheory.baml
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WElementCreater.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WElementCreater.baml
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WMenuModeling.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WMenuModeling.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WApplicationMap.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WElementCreater.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\wLoadingBaner.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WMenuModeling.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WModeling.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WMenuMain.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\wExplanation.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\wSettings.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WTheory.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\App.g.cs
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WApplicationMap.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WElementCreater.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\wLoadingBaner.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WMenuModeling.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WModeling.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WMenuMain.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\wExplanation.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\wSettings.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\WTheory.baml
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\11-G\Kamantcev\Progect\19.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WApplicationMap.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WElementCreater.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\wLoadingBaner.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WMenuModeling.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WModeling.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WMenuMain.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\wExplanation.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\wSettings.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WTheory.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\App.g.cs
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WApplicationMap.baml
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WElementCreater.baml
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\wLoadingBaner.baml
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WMenuModeling.baml
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WModeling.baml
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WMenuMain.baml
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\wExplanation.baml
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\wSettings.baml
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\WTheory.baml
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\Artem\Квалификационная\20.10_Modeling\Modeling\Modeling\obj\Debug\Modeling.csproj.CoreCompileInputs.cache
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\App.baml
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WApplicationMap.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WElementCreater.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\wLoadingBaner.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WMenuModeling.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WModeling.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WMenuMain.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\wExplanation.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\wSettings.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WTheory.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\App.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\App.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WApplicationMap.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WElementCreater.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\wLoadingBaner.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WMenuModeling.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WModeling.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WMenuMain.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\wExplanation.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\wSettings.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\WTheory.baml
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\11-G\Kamantcev\Progect\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WApplicationMap.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WElementCreater.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\wLoadingBaner.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WMenuModeling.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WModeling.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WMenuMain.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\wExplanation.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\wSettings.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WTheory.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\App.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\App.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WApplicationMap.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WElementCreater.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\wLoadingBaner.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WMenuModeling.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WModeling.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WMenuMain.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\wExplanation.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\wSettings.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\WTheory.baml
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\11-G\Kamantcev\Progect\23.11_Modeling\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WApplicationMap.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WElementCreater.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wLoadingBaner.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuModeling.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WModeling.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuMain.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wExplanation.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wSettings.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WTheory.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\App.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\App.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WApplicationMap.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WElementCreater.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wLoadingBaner.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuModeling.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WModeling.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuMain.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wExplanation.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wSettings.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WTheory.baml
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\Каманцев\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WApplicationMap.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WElementCreater.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wLoadingBaner.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuModeling.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WModeling.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuMain.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wExplanation.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wSettings.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WTheory.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\App.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\App.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WApplicationMap.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WElementCreater.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wLoadingBaner.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuModeling.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WModeling.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuMain.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wExplanation.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wSettings.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WTheory.baml
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\Kamantsev\Kamantsev Artem Sergeevich\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WApplicationMap.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WElementCreater.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wLoadingBaner.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuModeling.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WModeling.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuMain.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wExplanation.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wSettings.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WTheory.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\App.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\App.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WApplicationMap.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WElementCreater.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wLoadingBaner.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuModeling.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WModeling.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WMenuMain.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wExplanation.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\wSettings.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\WTheory.baml
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.csproj.CoreCompileInputs.cache
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\Artem\Квалификационная\Kamantsev Artem Sergeevich\Source\Modeling\Modeling\obj\Debug\Modeling.pdb
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WTests.g.cs
+D:\Artem\Квалификационная\Modeling\Modeling\obj\Debug\WTests.baml
+D:\11-G\Artem\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\11-G\Artem\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\11-G\Artem\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\Modeling.csprojResolveAssemblyReference.cache
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WApplicationMap.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WElementCreater.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\wLoadingBaner.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WMenuModeling.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WModeling.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WMenuMain.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\wExplanation.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\wSettings.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WTests.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WTheory.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\App.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.cache
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\Modeling_MarkupCompile.lref
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\App.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WApplicationMap.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WElementCreater.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\wLoadingBaner.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WMenuModeling.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WModeling.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WMenuMain.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\wExplanation.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\wSettings.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WTests.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\WTheory.baml
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\Modeling.g.resources
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.Cache
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\11-G\Artem\Modeling\Modeling\obj\Debug\Modeling.pdb

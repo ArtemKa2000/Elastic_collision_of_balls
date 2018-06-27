@@ -1,0 +1,134 @@
+<Elements_Set>
+  <Element>
+    <Width>25</Width>
+    <Height>15</Height>
+    <FPS>50</FPS>
+    <SpeedAnimation>1</SpeedAnimation>
+    <Fields>0</Fields>
+    <FontSize>0.5</FontSize>
+    <InfoVisibility>true</InfoVisibility>
+    <G>-9.8</G>
+    <Radius1>2</Radius1>
+    <Massa1>1</Massa1>
+    <ColorFill1>255 128 128 128</ColorFill1>
+    <ColorStroke1>255 0 0 0</ColorStroke1>
+    <CoordX1>3</CoordX1>
+    <Speed1>10</Speed1>
+    <Radius2>0.2</Radius2>
+    <Massa2>1</Massa2>
+    <ColorFill2>255 0 127 14</ColorFill2>
+    <ColorStroke2>255 0 0 0</ColorStroke2>
+    <CoordX2>8</CoordX2>
+    <Speed2>0</Speed2>
+  </Element>
+  <Element>
+    <Width>25</Width>
+    <Height>15</Height>
+    <FPS>50</FPS>
+    <SpeedAnimation>1</SpeedAnimation>
+    <Fields>0</Fields>
+    <FontSize>0.5</FontSize>
+    <InfoVisibility>true</InfoVisibility>
+    <G>-9.8</G>
+    <Radius1>2</Radius1>
+    <Massa1>1</Massa1>
+    <ColorFill1>255 128 128 128</ColorFill1>
+    <ColorStroke1>255 0 0 0</ColorStroke1>
+    <CoordX1>5</CoordX1>
+    <Speed1>10</Speed1>
+    <Radius2>0.2</Radius2>
+    <Massa2>10</Massa2>
+    <ColorFill2>255 0 127 14</ColorFill2>
+    <ColorStroke2>255 0 0 0</ColorStroke2>
+    <CoordX2>8</CoordX2>
+    <Speed2>0</Speed2>
+  </Element>
+  <Element>
+    <Width>25</Width>
+    <Height>15</Height>
+    <FPS>50</FPS>
+    <SpeedAnimation>1</SpeedAnimation>
+    <Fields>0</Fields>
+    <FontSize>0.5</FontSize>
+    <InfoVisibility>true</InfoVisibility>
+    <G>-9.8</G>
+    <Radius1>2</Radius1>
+    <Massa1>10</Massa1>
+    <ColorFill1>255 128 128 128</ColorFill1>
+    <ColorStroke1>255 0 0 0</ColorStroke1>
+    <CoordX1>5</CoordX1>
+    <Speed1>10</Speed1>
+    <Radius2>0.1</Radius2>
+    <Massa2>1</Massa2>
+    <ColorFill2>255 0 127 14</ColorFill2>
+    <ColorStroke2>255 0 0 0</ColorStroke2>
+    <CoordX2>8</CoordX2>
+    <Speed2>0</Speed2>
+  </Element>
+  <Element>
+    <Width>25</Width>
+    <Height>15</Height>
+    <FPS>50</FPS>
+    <SpeedAnimation>1</SpeedAnimation>
+    <Fields>0</Fields>
+    <FontSize>0.5</FontSize>
+    <InfoVisibility>true</InfoVisibility>
+    <G>-9.8</G>
+    <Radius1>2</Radius1>
+    <Massa1>100</Massa1>
+    <ColorFill1>255 128 128 128</ColorFill1>
+    <ColorStroke1>255 0 0 0</ColorStroke1>
+    <CoordX1>5</CoordX1>
+    <Speed1>25</Speed1>
+    <Radius2>0.2</Radius2>
+    <Massa2>1</Massa2>
+    <ColorFill2>255 0 127 14</ColorFill2>
+    <ColorStroke2>255 0 0 0</ColorStroke2>
+    <CoordX2>8</CoordX2>
+    <Speed2>0</Speed2>
+  </Element>
+  <Element>
+    <Width>15</Width>
+    <Height>15</Height>
+    <FPS>50</FPS>
+    <SpeedAnimation>1</SpeedAnimation>
+    <Fields>0</Fields>
+    <FontSize>16</FontSize>
+    <InfoVisibility>false</InfoVisibility>
+    <G>-9.8</G>
+    <Radius1>1</Radius1>
+    <Massa1>5</Massa1>
+    <ColorFill1>255 128 128 128</ColorFill1>
+    <ColorStroke1>255 0 0 0</ColorStroke1>
+    <CoordX1>6</CoordX1>
+    <Speed1>5</Speed1>
+    <Radius2>1</Radius2>
+    <Massa2>5</Massa2>
+    <ColorFill2>255 0 127 14</ColorFill2>
+    <ColorStroke2>255 0 0 0</ColorStroke2>
+    <CoordX2>9</CoordX2>
+    <Speed2>0</Speed2>
+  </Element>
+  <Element>
+    <Width>15</Width>
+    <Height>8</Height>
+    <FPS>50</FPS>
+    <SpeedAnimation>1</SpeedAnimation>
+    <Fields>0</Fields>
+    <FontSize>16</FontSize>
+    <InfoVisibility>false</InfoVisibility>
+    <G>-9.8</G>
+    <Radius1>1</Radius1>
+    <Massa1>1</Massa1>
+    <ColorFill1>255 128 128 128</ColorFill1>
+    <ColorStroke1>255 0 0 0</ColorStroke1>
+    <CoordX1>6</CoordX1>
+    <Speed1>5</Speed1>
+    <Radius2>1</Radius2>
+    <Massa2>5</Massa2>
+    <ColorFill2>255 0 127 14</ColorFill2>
+    <ColorStroke2>255 0 0 0</ColorStroke2>
+    <CoordX2>9</CoordX2>
+    <Speed2>-2</Speed2>
+  </Element>
+</Elements_Set>

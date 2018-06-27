@@ -1,0 +1,177 @@
+﻿<Window x:Class="Modeling.wElementCreater"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Modeling"
+        mc:Ignorable="d"
+         Title="Параметри моделювання" FontWeight="DemiBold" Background="#FFD0D1D5" Icon="Sources/Images/MAN.ico" WindowStartupLocation="CenterScreen" Closing="Window_Closing" KeyDown="Window_KeyDown" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+    <Grid Margin="5">
+        <Grid.Resources>
+            <ResourceDictionary>
+                <Style TargetType="TextBox">
+                    <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="170"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="150" ></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="450"></ColumnDefinition>
+            <ColumnDefinition Width="310"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <GroupBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="16" Header="Загальні параметри" BorderBrush="Black">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="445"></ColumnDefinition>
+                    <ColumnDefinition Width="300"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label FontSize="20" VerticalContentAlignment="Center">Ширина елементу (м)</Label>
+                    <TextBox Name="tb_Width" Grid.Column="1" Margin="5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="1" VerticalContentAlignment="Center">Висота елементу (м)</Label>
+                    <TextBox Name="tb_Height" Grid.Row="1" Grid.Column="1" Margin="5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="2" VerticalContentAlignment="Center">Кількість опорних кадрів</Label>
+                    <TextBox Name="tb_FPS" Grid.Row="2" Grid.Column="1" Margin="5" TextChanged="tb_TextChanged"></TextBox>
+                    <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="5,0,1,0">
+                        <TextBlock FontSize="20" >Прискорення вільного падіння (м/c</TextBlock>
+                        <TextBlock FontSize="12">2</TextBlock>
+                        <TextBlock FontSize="20">)</TextBlock>
+                    </StackPanel>
+                    <TextBox Name="tb_G" Grid.Row="3" Grid.Column="1" Margin="5" TextChanged="tb_TextChanged"></TextBox>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="0.41*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label FontSize="20" VerticalContentAlignment="Center">Швидкість анімації</Label>
+                    <TextBox Name="tb_SpeedAnimation" Grid.Column="1" Margin="5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="1" VerticalContentAlignment="Center">Поля (м)</Label>
+                    <TextBox Name="tb_Fields" Grid.Row="1" Grid.Column="1" Margin="5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="3">Розмір шрифта (м)</Label>
+                    <TextBox Name="tb_FontSize" Grid.Row="3" Grid.Column="1" Margin="5" TextChanged="tb_TextChanged"></TextBox>
+                    <CheckBox Name="chb_isDataShow" IsChecked="False" FontSize="20" Grid.Row="2" Grid.ColumnSpan="2" VerticalAlignment="Center" VerticalContentAlignment="Center" Checked="chb_isDataShow_Checked" Unchecked="chb_isDataShow_Unchecked">Відображати параметри</CheckBox>
+                </Grid>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.Column="0"  FontSize="16" Header="Параметри першої кулі" BorderBrush="Black">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.95*"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid x:Name="grid">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label FontSize="20" VerticalContentAlignment="Center">Радіус(м)</Label>
+                    <TextBox Name="tb_Radius1" Grid.Column="1" Margin="1,5,5,5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="1" VerticalContentAlignment="Center">Маса(кг)</Label>
+                    <TextBox Name="tb_Weight1" Grid.Row="1" Grid.Column="1" Margin="1,5,5,5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="2" Margin="0,0,3,0">Швидкість(м/c)</Label>
+                    <TextBox Name="tb_Speed1" Grid.Row="2" Grid.Column="1" Margin="1,5,5,5" TextChanged="tb_TextChanged"></TextBox>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label FontSize="20" VerticalContentAlignment="Center">Координата Х(м)</Label>
+                    <TextBox Name="tb_X1" Grid.Column="1" Margin="0,5,5,5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="1" VerticalContentAlignment="Center">Обведення</Label>
+                    <Rectangle Name="rect_ColorStroke1" StrokeThickness="1" Stroke="Black" Grid.Row="1" Grid.Column="1" Margin="0,5,5,5" MouseDown="rect_MouseDown"/>
+                    <Label FontSize="20" Grid.Row="1" Margin="0,38,0,2" Grid.RowSpan="2">Заповнення</Label>
+                    <Rectangle Name="rect_Color1" StrokeThickness="1" Stroke="Black" Grid.Row="2" Grid.Column="1" Margin="0,5,5,5" MouseDown="rect_MouseDown"/>
+                </Grid>
+            </Grid>
+        </GroupBox>
+        <GroupBox Grid.Row="2" Grid.Column="0" FontSize="16" Header="Параметри другої кулі" BorderBrush="Black">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.95*"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label FontSize="20" VerticalContentAlignment="Center">Радіус(м)</Label>
+                    <TextBox Name="tb_Radius2" Grid.Column="1" Margin="1,5,5,5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="1" VerticalContentAlignment="Center">Маса(кг)</Label>
+                    <TextBox Name="tb_Weight2" Grid.Row="1" Grid.Column="1" Margin="1,5,5,5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="2" Margin="0,0,3,0">Швидкість(м/c)</Label>
+                    <TextBox Name="tb_Speed2" Grid.Row="2" Grid.Column="1" Margin="1,5,5,5" TextChanged="tb_TextChanged"></TextBox>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label FontSize="20" VerticalContentAlignment="Center">Координата Х(м)</Label>
+                    <TextBox Name="tb_X2" Grid.Column="1" Margin="0,5,5,5" TextChanged="tb_TextChanged"></TextBox>
+                    <Label FontSize="20" Grid.Row="1" VerticalContentAlignment="Center">Обведення</Label>
+                    <Rectangle Name="rect_ColorStroke2" StrokeThickness="1" Stroke="Black" Grid.Row="1" Grid.Column="1" Margin="0,5,5,5" MouseDown="rect_MouseDown"></Rectangle>
+                    <Label FontSize="20" Grid.Row="2">Заповнення</Label>
+                    <Rectangle Name="rect_Color2" StrokeThickness="1" Stroke="Black" Grid.Row="2" Grid.Column="1" Margin="0,5,5,5" MouseDown="rect_MouseDown"></Rectangle>
+                </Grid>
+            </Grid>
+        </GroupBox>
+        <Border Name="b_Frame" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" BorderThickness="0" BorderBrush="Black" Margin="10" Width="280" Height="280" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Label Name="lb_Scale" Grid.Row="3" FontSize="20">1м = 100px</Label>
+        <Grid Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Name="btn_Back" Margin="5,10" Padding="4" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" MinHeight="30" MinWidth="150" Click="btn_Back_Click">Закрити</Button>
+            <Button Grid.Column="1" TabIndex="0" Margin="5,10" Padding="4" Name="btn_Add" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" MinHeight="30" MinWidth="150" Click="btn_Save_Click">Застосувати/Додати</Button>
+        </Grid>
+        <Label Grid.Row="5" Grid.ColumnSpan="2" FontSize="15" VerticalContentAlignment="Center" HorizontalAlignment="Left">Натисніть F1 для переходу до пояснювального матеріалу</Label>
+    </Grid>
+</Window>

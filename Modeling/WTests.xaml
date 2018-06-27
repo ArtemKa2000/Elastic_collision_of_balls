@@ -1,0 +1,298 @@
+﻿<Window x:Class="Modeling.WTests"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Modeling"
+        mc:Ignorable="d"
+        Title="Тести" Style="{StaticResource WindowStyle}" MinWidth="1280" MinHeight="720" Closing="Window_Closing">
+    <Grid>
+        <Grid.Resources>
+            <ResourceDictionary>
+                <Style TargetType="Label">
+                    <Setter Property="FontSize" Value="30"></Setter>
+                    <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                </Style>
+                <Style TargetType="RadioButton">
+                    <Setter Property="FontSize" Value="30"></Setter>
+                    <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                    <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                    <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="FontSize" Value="30"></Setter>
+                    <Setter Property="Height" Value="50"></Setter>
+                    <Setter Property="VerticalAlignment" Value="Stretch"></Setter>
+                    <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+                    <Setter Property="Padding" Value="5"></Setter>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Width" Value="40"></Setter>
+                    <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                    <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                    <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                    <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+                    <Setter Property="FontSize" Value="20"></Setter>
+                    <Setter Property="Background" Value="#FFD0D1D5"></Setter>
+                    <Setter Property="BorderThickness" Value="1"></Setter>
+                    <Setter Property="BorderBrush" Value="Black"></Setter>
+                    <EventSetter Event="TextChanged" Handler="TextBox_TextChanged"></EventSetter>
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="TextWrapping" Value="Wrap"></Setter>
+                </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+    <Grid Name="grid_Third" Visibility="Hidden" Margin="10">
+            <Grid.Resources>
+                <ResourceDictionary>
+                    <Style TargetType="TextBox">
+                        <Setter Property="Width" Value="50"></Setter>
+                        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+                        <Setter Property="FontSize" Value="20"></Setter>
+                        <Setter Property="Background" Value="#FFD0D1D5"></Setter>
+                        <Setter Property="BorderThickness" Value="1"></Setter>
+                        <Setter Property="BorderBrush" Value="Black"></Setter>
+                        <EventSetter Event="TextChanged" Handler="TextBox_TextChanged"></EventSetter>
+                    </Style>
+                </ResourceDictionary>
+            </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Name="grid_Main" SizeChanged="grid_Main_SizeChanged">
+                <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.2*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+                <Grid Grid.ColumnSpan="2" Margin="-10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Name="btn_Back2" Margin="10,15,5,15" Click="btn_Back2_Click" ToolTip="Повернутись до попередніх тестів">Назад</Button>
+                    <Button Name="btn_Check" Grid.Column="1" Margin="5,15" Click="btn_Check_Click" ToolTip="Перевірити відповіді">Перевірити</Button>
+                    <Button Name="btn_Show" Grid.Column="2"  Margin="5,15" Click="btn_Show_Click" ToolTip="Показати вірні відповіді">Показати вірні</Button>
+                    <Button Name="btn_Generate" Grid.Column="3"  Margin="5,15,10,15" Click="btn_Generate_Click" ToolTip="Генерувати нові умови і варіанти відповідей">Оновити умови</Button>
+            </Grid>
+            <TextBlock Grid.Row="1" FontSize="30" TextWrapping="Wrap" Margin="10" TextAlignment="Justify"><Bold>Задача:</Bold><LineBreak/>
+                Відбувається повністю пружне та 
+                жорстке зіткнення двох куль на площині. Перша куля має радіус
+                <TextBox Name="tb_R1">100</TextBox>(м), швидкість <TextBox Name="tb_S1">30</TextBox>(м/с) та масу <TextBox Name="tb_M1">5</TextBox>(кг). Друга 
+                куля має радіус <TextBox Name="tb_R2">50</TextBox>(м), швидкість
+                <TextBox Name="tb_S2">0</TextBox>(м/с) і масу <TextBox Name="tb_M2">1</TextBox>(кг).
+            Визначте модулі імпульсів куль одразу після зіткнення, якщо вважати тертя між кулями
+                і поверхнею відсутнім, а кулі такими, що ковзають. Оберіть відповідь найбільш близьку до вашої.</TextBlock>
+            <Border Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="Black" BorderThickness="4">
+                    <Border Name="brd_View" Background="#FFE4E4E4"></Border>
+            </Border>
+        </Grid>
+        <Grid Margin="20,10,20,20" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Label Grid.ColumnSpan="4">Модуль імпульсу першої кулі:</Label>
+            <RadioButton Name="rb1" GroupName="a" Grid.Row="1" Grid.Column="0" >rb1</RadioButton>
+            <RadioButton Name="rb2" GroupName="a" Grid.Row="1" Grid.Column="1" >rb2</RadioButton>
+            <RadioButton Name="rb3" GroupName="a" Grid.Row="1" Grid.Column="2">rb3</RadioButton>
+            <RadioButton Name="rb4" GroupName="a" Grid.Row="1" Grid.Column="3">rb4</RadioButton>
+
+            <Label Grid.ColumnSpan="4" Grid.Row="2">Модуль імпульсу другої кулі:</Label>
+            <RadioButton Name="rb5" GroupName="b" Grid.Row="3" Grid.Column="0">rb5</RadioButton>
+            <RadioButton Name="rb6" GroupName="b" Grid.Row="3" Grid.Column="1">rb6</RadioButton>
+            <RadioButton Name="rb7" GroupName="b" Grid.Row="3" Grid.Column="2">rb7</RadioButton>
+            <RadioButton Name="rb8" GroupName="b" Grid.Row="3" Grid.Column="3">rb8</RadioButton>
+        </Grid>
+            <TextBlock Grid.Row="2" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="28" Margin="0,10,10,5">Бали: <TextBlock Name="tb_Ball3">0</TextBlock>/2</TextBlock>
+        </Grid>
+        <Grid Name="grid_First" Margin="10" Visibility="Visible">
+            <Grid.Resources>
+                <ResourceDictionary>
+                    <Style TargetType="RadioButton">
+                        <Setter Property="FontSize" Value="25"></Setter>
+                        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                        <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                    </Style>
+                </ResourceDictionary>
+            </Grid.Resources>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.ColumnSpan="4" Margin="-10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Image Style="{StaticResource ImageBackStyle}" Source="Sources/Images/BackEnter.png"></Image>
+                <Image Name="im_Back" Style="{StaticResource ImageBackStyle}" MouseDown="im_Back_MouseDown"></Image>
+                <Button Name="btn_Check1" Grid.Column="1" Margin="10,5,5,5" Click="btn_Check1_Click" ToolTip="Перевірити відповіді">Перевірити</Button>
+                <Button Name="btn_Show1" Grid.Column="2"  Margin="5" Click="btn_Show1_Click" ToolTip="Показати вірні відповіді">Показати вірні</Button>
+                <Button Name="btn_Update1" Grid.Column="3"  Margin="5" Click="btn_Update1_Click" ToolTip="Прибрати виділення і змінити порядок відповідей">Оновити</Button>
+                <Button Name="btn_Next1" Grid.Column="4"  Margin="5,5,10,5" Click="btn_Next1_Click" ToolTip="Перейти до наступних тестів">Далі</Button>
+            </Grid>
+            
+            <Label Grid.Row="1" Grid.ColumnSpan="4" FontSize="32">Оберіть вірні відповіді на наступні питання.</Label>
+            <Label Grid.Row="2" Grid.ColumnSpan="4">1) Зіткнення називається пружним, якщо ...</Label>
+            <RadioButton Name="rb_c1" GroupName="c" Grid.Row="3" Grid.Column="0">
+                <TextBlock>зберігається механічна енергія системи тіл</TextBlock></RadioButton>
+            <RadioButton Name="rb_c2" GroupName="c" Grid.Row="3" Grid.Column="1">
+                <TextBlock>зберігаються швидкості усіх тіл</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_c3" GroupName="c" Grid.Row="3" Grid.Column="2">
+                <TextBlock>зберігається кінетична енергія системи тіл</TextBlock></RadioButton>
+            <RadioButton Name="rb_c4" GroupName="c" Grid.Row="3" Grid.Column="3">
+                <TextBlock>зберігається потенційна енергія системи тіл</TextBlock>
+            </RadioButton>
+
+            <Label Grid.Row="4" Grid.ColumnSpan="4">2) Імпульс це ...</Label>
+            <RadioButton Name="rb_d1" GroupName="d" Grid.Row="5" Grid.Column="0">
+                <TextBlock>добуток маси тіла на його швидкість</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_d2" GroupName="d" Grid.Row="5" Grid.Column="1">
+                <TextBlock>півдобуток маси тіла на квадрат його швидкості</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_d3" GroupName="d" Grid.Row="5" Grid.Column="2">
+                <TextBlock>добуток маси тіла на квадрат його швидкості</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_d4" GroupName="d" Grid.Row="5" Grid.Column="3">
+                <TextBlock>добуток маси тіла на прискорення</TextBlock>
+            </RadioButton>
+
+            <Label Grid.Row="6" Grid.ColumnSpan="4">3) Закон збереження імпульсу вперше сформулював ...</Label>
+            <RadioButton Name="rb_e1" GroupName="e" Grid.Row="7" Grid.Column="0">
+                <TextBlock>Рене Декарт</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_e2" GroupName="e" Grid.Row="7" Grid.Column="1">
+                <TextBlock>Ісаак Ньютон</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_e3" GroupName="e" Grid.Row="7" Grid.Column="2">
+                <TextBlock>Галілео Галілей</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_e4" GroupName="e" Grid.Row="7" Grid.Column="3">
+                <TextBlock>Альберт Ейнштейн</TextBlock>
+            </RadioButton>
+
+            <Label Grid.Row="8" Grid.ColumnSpan="4">4) Одиниця імпульсу у СІ ...</Label>
+            <RadioButton Name="rb_f1" GroupName="f" Grid.Row="9" Grid.Column="0">
+                <TextBlock>кг∙м/с</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_f2" GroupName="f" Grid.Row="9" Grid.Column="1">
+                <TextBlock>кг∙м</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_f3" GroupName="f" Grid.Row="9" Grid.Column="2">
+                <TextBlock>Н∙м</TextBlock>
+            </RadioButton>
+            <RadioButton Name="rb_f4" GroupName="f" Grid.Row="9" Grid.Column="3">
+                <TextBlock>кг∙м/c^2</TextBlock>
+            </RadioButton>
+            <TextBlock Grid.Row="10" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="28" Margin="0,10,10,5">Бали: <TextBlock Name="tb_Ball1">0</TextBlock>/4</TextBlock>
+        </Grid>
+        <Grid Name="grid_Second" Margin="10" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="0.8*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.ColumnSpan="4" Margin="-10" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button Name="btn_Back1" Margin="10,15,5,15" Click="btn_Back1_Click" ToolTip="Повернутись до попередніх тестів">Назад</Button>
+                <Button Name="btn_Check2" Grid.Column="1" Margin="10,5,5,5" Click="btn_Check2_Click" ToolTip="Перевірити відповіді">Перевірити</Button>
+                <Button Name="btn_Show2" Grid.Column="2"  Margin="5" Click="btn_Show2_Click" ToolTip="Показати вірні відповіді">Показати вірні</Button>
+                <Button Name="btn_Generate2" Grid.Column="3"  Margin="5" Click="btn_Generate2_Click" ToolTip="Генерувати нові умови і варіанти відповідей">Оновити умови</Button>
+                <Button Name="btn_Next2" Grid.Column="4"  Margin="5,5,10,5" Click="btn_Next2_Click" ToolTip="Перейти до наступного тесту">Далі</Button>
+            </Grid>
+            <Border Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="3" BorderBrush="Black" Margin="10">
+                <Image  Source="Sources/Images/Balls.png" ToolTip="Ілюстрація до задачі 1"></Image>
+            </Border>
+            <Border Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="3" BorderBrush="Black" Margin="10">
+                <Image Source="Sources/Images/Vagones.png" ToolTip="Ілюстрація до задачі 2"></Image>
+            </Border>
+            <TextBlock Grid.Row="4" Grid.ColumnSpan="2" FontSize="30" > Задача 2. </TextBlock>
+            <TextBlock Grid.Row="5" Grid.ColumnSpan="2" FontSize="22">
+                Відбувається повністю пружне, жорстке, центральне зіткення двох вагонеток  на площині. 
+                Перша має масу <TextBox Name="tb_Mass1" TextChanged="tb_Task1_TextChanged">5</TextBox>(кг) і швидкість <TextBox Name="tb_Speed1" TextChanged="tb_Task1_TextChanged">20</TextBox>(м/с).
+                Друга має масу <TextBox Name="tb_Mass2" TextChanged="tb_Task1_TextChanged">5</TextBox>(кг) і швидкість <TextBox Name="tb_Speed2" TextChanged="tb_Task1_TextChanged">-20</TextBox>(м/с).
+                Вважайте тертя між вагонетками і повернею їх руху відсутнім. Визначте модулі імпульсів першої та другої вагонеток після зіткнення відповідно. Дробовою часткою відповідей знехтуйте.
+            </TextBlock>
+            
+            <RadioButton Name="rb_g1" GroupName="g" Grid.Row="6" Grid.Column="0">rb1</RadioButton>
+            <RadioButton Name="rb_g2" GroupName="g" Grid.Row="6" Grid.Column="1">rb2</RadioButton>
+            <RadioButton Name="rb_g3" GroupName="g" Grid.Row="6" Grid.Column="2">rb3</RadioButton>
+            <RadioButton Name="rb_g4" GroupName="g" Grid.Row="6" Grid.Column="3">rb4</RadioButton>
+            
+            <TextBlock Grid.Row="1" Grid.ColumnSpan="2" FontSize="30">Задача 1.</TextBlock>
+            <TextBlock Grid.Row="2" Grid.ColumnSpan="2" FontSize="22">
+                Система складається з двох куль, на які не діють зовнішні сили. 
+                Модуль імпульсу першої кулі складає <TextBox Name="tb_P1" TextChanged="tb_Task2_TextChanged">10</TextBox>(кг∙м/с) і вона рухається під кутом <TextBox Name="tb_L1" TextChanged="tb_Task2_TextChanged"></TextBox>(°).
+                Модуль імпульсу другої кулі складає <TextBox Name="tb_P2" TextChanged="tb_Task2_TextChanged">10</TextBox>(кг∙м/с) і вона рухається під кутом <TextBox Name="tb_L2" TextChanged="tb_Task2_TextChanged"></TextBox>(°).
+                Кути розраховуються від додатнього напрямку осі абсцис проти годинникової стрілки.
+                Визначте модуль імпульсу системи тіл. Дробовою часткою відповідей знехтуйте.
+            </TextBlock>
+            <RadioButton Name="rb_h1" GroupName="h" Grid.Row="3" Grid.Column="0">rb1</RadioButton>
+            <RadioButton Name="rb_h2" GroupName="h" Grid.Row="3" Grid.Column="1">rb2</RadioButton>
+            <RadioButton Name="rb_h3" GroupName="h" Grid.Row="3" Grid.Column="2">rb3</RadioButton>
+            <RadioButton Name="rb_h4" GroupName="h" Grid.Row="3" Grid.Column="3">rb4</RadioButton>
+
+            <TextBlock Grid.Row="7" Grid.ColumnSpan="4" HorizontalAlignment="Right" FontSize="28" Margin="0,10,10,5">Бали: <TextBlock Name="tb_Ball2">0</TextBlock>/2</TextBlock>
+        </Grid>
+  </Grid>
+</Window>

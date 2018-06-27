@@ -1,0 +1,7 @@
+MinimalCalculateTime: 0,0001
+MaxFramesCount: 1000
+MinScale: 0,1
+TranslateFields: 15
+ScrollStep: 1,2
+AverageSpeedRatio: 0,5
+DataBasePath: \Sources\Elements.xml
